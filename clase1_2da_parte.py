@@ -39,4 +39,4 @@ fname = 'cronograma_sugerido.csv'
 df = pd.read_csv(fname)
 df = pd.read_csv(fname,index_col = 0)
 df = pd.read_csv(fname, header = 0)
-print(df)
+#print(df)
