@@ -59,3 +59,15 @@ def alturaBilletesObelisco():
 
 #print(alturaBilletesObelisco())
 
+
+
+def geringoso(palabra):
+    vocal = ['a','e','i','o','u']
+
+    for letra in palabra:
+        if letra in vocal:
+            palabra = palabra + 'p' + letra 
+    return palabra
+
+#print(geringoso('hola'))
+#no funciona
