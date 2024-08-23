@@ -9,7 +9,7 @@ Created on Fri Aug 23 13:15:11 2024
 
 #%%
 import pandas as pd
-archivo = '../Estudiante/Documentos/Lourdes/arbolado-en-espacios-verdes.csv'
+archivo = '../Estudiante/Documentos/Lourdes/arbolado-en-espacios-verdes.csv'   #descargarlo de nuevo
 df = pd.read_csv(archivo, index_col = 2)
 
 #%% dataframe que contenga las filas de Jacarandás y Palos borracho
