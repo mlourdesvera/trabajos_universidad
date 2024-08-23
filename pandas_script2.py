@@ -49,7 +49,7 @@ df_nuevo.loc['123/45','promedio'] = (df_nuevo.loc['123/45','nota1'] + df_nuevo.l
 
 df_nuevo.loc['123/45','aprueba'] = False
 
-df_nuevo.loc['aprueba'] = (df_nuevo['nota2'] >=5) & (df_nuevo['nota1'] >=5)  
+df_nuevo['aprueba'] = (df_nuevo['nota2'] >=5) & (df_nuevo['nota1'] >=5)  
 
 df_nuevo['promociona'] =(df_nuevo['nota2']>=8) & (df_nuevo['nota1']>=8)
 
