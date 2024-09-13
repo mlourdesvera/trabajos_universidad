@@ -15,7 +15,7 @@ from inline_sql import sql, sql_val
 # Importamos los datasets que vamos a utilizar en este programa
 #=============================================================================
 
-carpeta = "~/Descargas/clase6/"
+carpeta = "~/Descargas/clase 6/"
 
 # Ejercicios AR-PROJECT, SELECT, RENAME
 empleado       = pd.read_csv(carpeta+"empleado.csv")
@@ -799,15 +799,45 @@ dataframeResultado = sql^ consultaSQL
 #%%===========================================================================
 # Ejercicios SQL - Desafío
 #=============================================================================
-# a.- Mostrar para cada estudiante las siguientes columnas con sus datos: Nombre, Sexo, Edad, Nota-Parcial-01, Nota-Parcial-02, Recuperatorio-01 y , Recuperatorio-02
+# a.- Mostrar para cada estudiante las siguientes columnas con sus datos: 
+    #Nombre, Sexo, Edad, Nota-Parcial-01, Nota-Parcial-02, Recuperatorio-01 y , Recuperatorio-02
 
 # ... Paso 1: Obtenemos los datos de los estudiantes
-consultaSQL = """
 
+datosEstudiantes = sql^"""
+            SELECT DISTINCT Nombre, Sexo, Edad
+            FROM examen;
+              """
+parcial01 = sql^"""
+                SELECT DISTINCT est.*, exa.Nota AS Parcial_01
+                FROM datosEstudiantes AS est
+                LEFT JOIN examen AS exa
+                ON est.Nombre = exa.Nombre AND exa.Instancia = 'Parcial-01'
+                ORDER BY est.Nombre;
+              """ 
+parcial02 = sql^"""
+                SELECT DISTINCT p1.*, exa.Nota AS Parcial_02
+                FROM parcial01 AS p1
+                LEFT JOIN examen AS exa
+                ON p1.Nombre = exa.Nombre AND exa.Instancia = 'Parcial-02'
+                ORDER BY p1.Nombre;
+              """ 
+recu01 = sql^"""
+                SELECT DISTINCT p2.*, exa.Nota AS Recuperatorio_01
+                FROM parcial02 AS p2
+                LEFT JOIN examen AS exa
+                ON p2.Nombre = exa.Nombre AND exa.Instancia = 'Recuperatorio-01'
+                ORDER BY p2.Nombre;
+              """                
+consultaSQL = """
+                SELECT DISTINCT r1.*, exa.Nota AS Recuperatorio_02
+                FROM recu01 AS r1
+                LEFT JOIN examen AS exa
+                ON r1.Nombre = exa.Nombre AND exa.Instancia = 'Recuperatorio-02'
+                ORDER BY r1.Nombre;
               """
 
-
-desafio_01 = consultaSQL
+desafio_01 = sql^consultaSQL
 
 
 
@@ -815,7 +845,8 @@ desafio_01 = consultaSQL
 # b.- Agregar al ejercicio anterior la columna Estado, que informa si el alumno aprobó la cursada (APROBÓ/NO APROBÓ). Se aprueba con 4.
 
 consultaSQL = """
-                 
+            SELECT DISTINCT d1.*
+            FROM desafio_01 AS d1                 
               """
 
 desafio_02 = sql^ consultaSQL
