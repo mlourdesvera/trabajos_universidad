@@ -371,7 +371,8 @@ plt.rcParams['font.family'] = 'sans-serif'
 ax.plot('Periodo','Precio', data=combustible, marker="*")   #puedo poner lo que quiero de marker
 
 ax.set_title('Precios del biodiesel en Argentina')
-ax.set_xlabel('Período', fontsize='medium')                       
+ax.set_xlabel('Período', fontsize='medium')
+ax.tick_params(axis='x', labelrotation=90)                        
 ax.set_ylabel('Precio', fontsize='medium')    
 #arreglarlo que vaya de menor a mayor y cambiar algo de periodos para que se vea bien
 
@@ -496,12 +497,12 @@ ax.set_xlabel('Edad al momento de muerte (años)')
 ax.set_ylabel('Cantidad de personas')
 ax.set_ylim(0,160)
 
-
+#todos intervalos mismo ancho
 # ¿Que pasa si cambiamos la cantidad de bins?
 
 # Vuelvan a generar el histograma/gráfico de frecuencias usando 2, 8 y 70 bins
 
-
+#cantidad de bins es subjetiva, acá pensar entre 5 y 20 aproxxxx             
 
 
 
@@ -589,3 +590,49 @@ plt.show()
 # Sexo
 # Día de la semana
 # Comentar los resultados obtenidos
+
+
+
+propinas= pd.read_csv(carpeta+"tips.csv")
+
+#según sexo
+fig, ax = plt.subplots()
+sns.histplot(data = propinas,
+             x = 'tip', 
+             bins = 10, 
+             hue= 'sex',                # Coloreamos segun los valores de la columna 'Sex'
+             palette = 'pastel')
+
+# Agrega titulo, etiquetas a los ejes y limita el rango de valores de los ejes    
+ax.set_title('Distribución de propinas según el sexo')
+ax.set_xlabel('Monto de propina')
+ax.set_ylabel('Cantidad de personas')
+ax.set_ylim(0,60)
+
+#%%
+#según día de la semana
+fig, ax = plt.subplots()
+
+
+sns.histplot(data = propinas['day'], bins = 4, color='#eebbbb')
+
+# Agrega titulo, etiquetas a los ejes y limita el rango de valores de los ejes    
+ax.set_title('Distribución de propinas según el día de la semana')
+ax.set_xlabel('Día de la semana')
+ax.set_ylabel('Monto de propinas')
+ax.set_ylim(0,100)
+
+#%%
+fig, ax = plt.subplots()
+sns.histplot(data = propinas,
+             x = 'tip', 
+             bins = 10, 
+             hue= 'day',                # Coloreamos segun los valores de la columna 'Sex'
+             palette = 'pastel',
+             kde=True)  # para agregar las lineas
+
+# Agrega titulo, etiquetas a los ejes y limita el rango de valores de los ejes    
+ax.set_title('Distribución de propinas según el sexo')
+ax.set_xlabel('Monto de propina')
+ax.set_ylabel('Cantidad de personas')
+ax.set_ylim(0,30)
