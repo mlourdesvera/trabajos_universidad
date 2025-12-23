@@ -1,0 +1,165 @@
+ID,Nombre,Codigo_Pais
+CBONN,Consulado  en  Bonn,DEU
+CCHIC,Consulado  General  en  Chicago,USA
+CENCA,Consulado  General  en  Encarnación,PRY
+CFDIG,Consulado  en  Foz  de  Iguazu,BRA
+CGUAN,Consulado  General  en  Guangzhou,CHN
+CHAMB,Consulado  General  en  Hamburgo,DEU
+CHOUS,Consulado  General  en  Houston,USA
+CMIAM,Consulado  General  y  Centro  de  Promoción  en  Miami,USA
+CPAYS,Consulado  en  Paysandú,URY
+CPMON,Consulado  en  Puerto  Montt,CHL
+CYACU,Consulado  en  Yacuiba,BOL
+DIGAC,Argentinos  en  el  exterior,ARG
+EBRAS,Embajada  en  Brasil,BRA
+ECANA,Embajada  en  Canadá,CAN
+ECOLO,Embajada  en  Colombia,COL
+ECORE,Embajada  en  Corea  Del  Sur,KOR
+EEARB,Embajada  en  Emiratos  Árabes  Unidos,ARE
+EECUA,Embajada  en  Ecuador,ECU
+EEEUU,Embajada  en  Estados  Unidos,USA
+EEGIP,Embajada  en  Egipto,EGY
+EFILI,Embajada  en  Filipinas,PHL
+EGREC,Embajada  en  Grecia,GRC
+EISIA,Embajada  en  Indonesia,IDN
+EJAMA,Embajada  en  Jamaica,JAM
+ELUCI,Embajada  en  Santa  Lucía,LCA
+EMOZA,Embajada  en  Mozambique,MOZ
+ENICA,Embajada  en  Nicaragua,NIC
+ENORU,Embajada  en  Noruega,NOR
+EPOLO,Embajada  en  Polonia,POL
+EPORT,Embajada  en  Portugal,PRT
+EQATR,Embajada  en  Qatar,QAT
+ERUNI,Embajada  en  Reino  Unido,GBR
+ESURI,Embajada  en  Surinam,SUR
+ETAIL,Embajada  en  Tailandia,THA
+ETRIN,Embajada  en  Trinidad  y  Tobago,TTO
+ETURQ,Embajada  en  Türkiye,TUR
+EURUG,Embajada  en  Uruguay,URY
+EVIET,Embajada  en  Vietnam,VNM
+REPAL,Oficina  de  Representación  en  el  Estado  de  Palestina,PSE
+CATLA,Consulado  General  en  Atlanta,USA
+CBARC,Consulado  General  y  Centro  de  Promoción  en  Barcelona,ESP
+CCADI,Consulado  en  Cádiz,ESP
+CCOLO,Consulado  en  Colonia,URY
+CCONC,Consulado  en  Concepción,CHL
+CCURI,Consulado  en  Curitiba,BRA
+CGMUM,Consulado  General  y  Centro  de  Promoción  en  Mumbai,IND
+CGVAN,Consulado  General  en  Vancouver,CAN
+CJOHA,Consulado  General  en  Johannesburgo,ZAF
+CLIMA,Consulado  General  en  Lima,PER
+CLOND,Consulado  General  en  Londres,GBR
+CMALD,Consulado  en  Maldonado,URY
+CMEXI,Consulado  General  en  México,MEX
+CPABL,Consulado  General  y  Centro  de  Promoción  en  San  Pablo,BRA
+CPCAR,Consulado  en  Playa  del  Carmen,MEX
+CRECI,Consulado  en  Recife,BRA
+CROMA,Consulado  General  en  Roma,ITA
+CSIDN,Consulado  General  en  Sidney,AUS
+CTARI,Consulado  General  en  Tarija,BOL
+CTENE,Consulado  en  Tenerife,ESP
+EANGO,Embajada  en  Angola,AGO
+EARAB,Embajada  en  Arabia  Saudita,SAU
+EARME,Embajada  en  Armenia,ARM
+EASIR,Embajada  en  Siria,SYR
+EBELG,Embajada  en  Bélgica,BEL
+EBOLV,Embajada  en  Bolivia,BOL
+ECEUR,Embajada  ante  la  Unión  Europea,BEL
+ECHES,Embajada  en  República  Checa,CZE
+ECUBA,Embajada  en  Cuba,CUB
+EESPA,Embajada  en  España,ESP
+EFRAN,Embajada  en  Francia,FRA
+EFRUS,Embajada  en  Rusia,RUS
+EGUYA,Embajada  en  Guyana,GUY
+EHILE,Embajada  en  Chile,CHL
+EHOND,Embajada  en  Honduras,HND
+EMFAO,Misión  Permanente  ante  la  Organización  de  las  Naciones  Unidas  para  la  Alimentación  y  la  Agricultura,ITA
+EPERU,Embajada  en  Perú,PER
+ERUMA,Embajada  en  Rumania,ROU
+ESSED,Representación  ante  la  Santa  Sede,VAT
+ESUIZ,Embajada  en  Suiza,CHE
+EVENE,Embajada  en  Venezuela,VEN
+CALEG,Consulado  General  en  Porto  Alegre,BRA
+CBEIJ,Sección  Consular  en  Beijing,CHN
+CFBEN,Consulado  en  Fray  Bentos,URY
+CFLOR,Consulado  en  Florianopolis,BRA
+CFRAN,Consulado  General  y  Centro  de  Promoción  en  Francfort,DEU
+CGEST,Consulado  General  y  Centro  de  Promoción  en  Estambul,TUR
+CHONG,Consulado  General  en  Hong  Kong,CHN
+CMADR,Consulado  General  en  Madrid,ESP
+CMILA,Consulado  General  y  Centro  de  Promoción  en  Milán,ITA
+CNYOR,Consulado  General  y  Centro  de  Promoción  en  Nueva  York,USA
+CRIOJ,Consulado  General  en  Rio  de  Janeiro,BRA
+CSBAH,Consulado  en  San  Salvador  de  Bahía,BRA
+CSHAN,Consulado  General  y  Centro  de  Promoción  en  Shanghai,CHN
+CSIGO,Consulado  General  en  Santiago,CHL
+CSLTO,Consulado  en  Salto,URY
+CVALP,Consulado  General  en  Valparaíso,CHL
+CVIGO,Consulado  General  en  Vigo,ESP
+EARGE,Embajada  en  Argelia,DZA
+EBARB,Embajada  en  Barbados,BRB
+EDINA,Embajada  en  Dinamarca,DNK
+EDOMI,Embajada  en  República  Dominicana,DOM
+EFINL,Embajada  en  Finlandia,FIN
+EHAIT,Embajada  en  Haití,HTI
+EINDI,Embajada  en  India,IND
+EIRLA,Embajada  en  Irlanda,IRL
+EISRA,Embajada  en  Israel,ISR
+EITAL,Embajada  en  Italia,ITA
+EJAPO,Embajada  en  Japón,JPN
+EKENY,Embajada  en  Kenia,KEN
+EKUWA,Embajada  en  Kuwait,KWT
+ELBNO,Embajada  en  Líbano,LBN
+EMARR,Embajada  en  Marruecos,MAR
+EMEXI,Embajada  en  México,MEX
+ENIGE,Embajada  en  Nigeria,NGA
+ENZEL,Embajada  en  Nueva  Zelandia,NZL
+EPAKI,Embajada  en  Pakistán,PAK
+EPNMA,Embajada  en  Panamá,PAN
+ERICA,Embajada  en  Costa  Rica,CRI
+ESAFR,Embajada  en  Sudáfrica,ZAF
+ESALV,Embajada  en  El  Salvador,SLV
+ESUEC,Embajada  en  Suecia,SWE
+ETRIA,Embajada  en  Austria,AUT
+ETUNE,Embajada  en  Túnez,TUN
+EUNES,"Delegación  Permanente  ante  la  Organización  de  las  Naciones  Unidas  para  la  Educación, la  Ciencia  y  la  Cultura",FRA
+OCCAT,Oficina  Comercial  y  Cultural  Argentina  en  Taiwán,CHN
+CANTO,Consulado  en  Antofagasta,CHL
+CAREN,Consulado  General  en  Punta  Arenas,CHL
+CASUN,Consulado  General  en  Asunción,PRY
+CBELO,Consulado  en  Belo  Horizonte,BRA
+CCEST,Consulado  General  en  Ciudad  del  Este,PRY
+CCOCH,Consulado  en  Cochabamba,BOL
+CGPAZ,Consulado  General  en  La  Paz,BOL
+CGTEL,Consulado  General  en  Tel  Aviv,ISR
+CGUAY,Consulado  en  Guayaquil,ECU
+CLANG,Consulado  General  y  Centro  de  Promoción  en  Los  Ángeles,USA
+CMALL,Consulado  en  Palma,ESP
+CMDEO,Consulado  General  en  Montevideo,URY
+CMREA,Consulado  General  en  Montreal,CAN
+CSCRS,Consulado  General  y  Centro  de  Promoción  en  Santa  Cruz,BOL
+CTORO,Consulado  General  en  Toronto,CAN
+CURUG,Consulado  en  Uruguayana,BRA
+CVILL,Consulado  en  Villazon,BOL
+EALEM,Embajada  en  Alemania,DEU
+EAUST,Embajada  en  Australia,AUS
+EAZER,Embajada  en  Azerbaiyán,AZE
+EBANG,Embajada  en  Bangladesh,BGD
+EBULG,Embajada  en  Bulgaria,BGR
+ECHIN,Embajada  en  China,CHN
+EEOEA,Misión  Permanente  ante  la  Organización  de  Estados  Americanos,USA
+EETIO,Embajada  en  Etiopía,ETH
+EGUAT,Embajada  en  Guatemala,GTM
+EIRAN,Embajada  en  Irán,IRN
+ELBIA,Embajada  en  Libia,LBY
+EMSIA,Embajada  en  Malasia,MYS
+EMSUR,Representación  Permanente  para  MERCOSUR  y  ALADI,URY
+ENAUN,Representación  Permanente  ante  las  Naciones  Unidas,USA
+EOIRS,Misión  Permanente  ante  los  Organismos  Internacionales  en  Ginebra,CHE
+EPARA,Embajada  en  Paraguay,PRY
+EPBAJ,Embajada  en  Holanda,NLD
+ESENE,Embajada  en  Senegal,SEN
+ESERB,Embajada  en  Serbia,SRB
+ESING,Embajada  en  Singapur,SGP
+EUCRA,Embajada  en  Ucrania,UKR
+EUNGR,Embajada  en  Hungría,HUN
